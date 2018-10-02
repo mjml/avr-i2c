@@ -1,1 +1,6 @@
-The minimum callback code that you need to use SSD1306 OLED devices with u8x8.
+A little library that provides C calls for I2C communication on AVR devices.
+
+There are synchronous and asynchronous versions of these calls.
+Be aware that the asynchronous versions can easily suffer from underflow problems on sending and overflow on receiving
+  if the microcontroller runs for too long without supplying new data or new memory.
+	
